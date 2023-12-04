@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Lustria&family=PT+Sans:,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+header {
+  background-image: url(/asset/bg-hero-img.png);
+  width: 100%;
+  height: 355px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  font-size: 58px;
+}
+h2 {
+  font-size: 42px;
+  color: #747c80;
+}
+h3 {
+  font-size: 22px;
+  color: #747c80;
+}
+h4 {
+  text-align: center;
+  color: #747c80;
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  font-family: "Lustria", serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+.header-text p {
+  font-size: 42px;
+  font-weight: ;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  row-gap: 50px;
+  color: #ffffff;
+}
+.page1 {
+  background-color: #a7a7a9;
+  height: auto;
+  padding: 50px 0;
+}
+
+.page2 {
+  display: flex;
+  height: auto;
+}
+.left-section {
+  width: 50%;
+  background-color: #747c80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h2 h3 {
+  color: #747c80;
+}
+.main-text {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  row-gap: 15px;
+}
+.main-text p,
+.summery-text p {
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Lustria", serif;
+  line-height: 24px;
+}
+.img-container {
+  width: 80%;
+  margin: 60px auto;
+}
+.img-container img {
+  width: 100%;
+  height: 450px;
+}
+.page3 {
+  width: 100%;
+
+  background-color: #e3eaed;
+  padding: 50px 0px;
+}
+.page3 h2 {
+  text-align: center;
+}
+.summery-img {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.summery-img img {
+  width: 30%;
+  height: 200px;
+}
+.summery-text {
+  width: 90%;
+  margin: 25px auto;
+  display: grid;
+  row-gap: 15px;
+}
+.page4,
+.page5 {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.summery-text h2 {
+  text-align: center;
+}
+
+.summery-text p {
+  text-align: center;
+}
+.main-img-card {
+  display: flex;
+  justify-content: space-between;
+}
+.img-card {
+  width: 48%;
+  display: grid;
+  row-gap: 10px;
+  background-color: #e3eaed;
+  padding-bottom: 20px;
+}
+.img-card img {
+  width: 100%;
+  height: 350px;
+}
+.img-dis {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  row-gap: 10px;
+}
+.img-card p {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Lustria", serif;
+}
+
+.profile-card {
+  width: 250px;
+  background-color: #e3eaed;
+  padding-bottom: 15px;
+  display: grid;
+  row-gap: 10px;
+}
+.profile-card img {
+  width: 100%;
+  height: auto;
+}
+
+.profile-container {
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.profile-card p {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Lustria", serif;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.Community {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.cumminty-left,
+.cumminty-right {
+  width: 45%;
+  display: grid;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.Community-dis {
+  display: grid;
+  row-gap: 15px;
+}
+.Community-dis img {
+  width: 100%;
+  height: auto;
+}
+.article1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3eaed;
+  padding: 15px;
+}
+.article-img,
+.bio {
+  width: 45%;
+  display: grid;
+  row-gap: 15px;
+}
+.article-img img {
+  width: 100%;
+  height: 150px;
+}
+button {
+  padding: 10px;
+  border-radius: 25px;
+  width: 100px;
+  border-style: none;
+  background-color: #747c80;
+  color: #ffffff;
+}
+.mid-hero-img {
+  background-image: url(../asset/BANNER-2.png);
+  width: 100%;
+  height: 355px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.culm {
+  height: 200px;
+  background-color: #747c80;
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: #e3eaed;
+  padding: 50px 0;
+}
