@@ -14,20 +14,20 @@ header {
   background-size: cover;
 }
 h1 {
-  font-size: 58px;
+  font-size: 4rem;
 }
 h2 {
-  font-size: 42px;
+  font-size: 2.1rem;
   color: #747c80;
 }
 h3 {
-  font-size: 22px;
+  font-size: 1.5rem;
   color: #747c80;
 }
 h4 {
   text-align: center;
   color: #747c80;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
 }
 p {
@@ -35,9 +35,8 @@ p {
   font-size: 1rem;
   line-height: 1.4rem;
 }
-.header-text p {
-  font-size: 42px;
-  font-weight: ;
+.header-text span {
+  font-size: 3rem;
 }
 .container {
   width: 90%;
@@ -53,6 +52,7 @@ p {
 }
 
 .page2 {
+  width: 100%;
   display: flex;
   height: auto;
 }
@@ -65,29 +65,20 @@ p {
 }
 .right-section {
   width: 50%;
-  display: flex;
-  align-items: center;
+  /* align-items: cente
   justify-content: center;
+  padding: 50px; */
 }
 .container h2 h3 {
   color: #747c80;
 }
+.img-container,
 .main-text {
   width: 80%;
-  margin: 50px auto;
+  margin: 60px auto;
   display: grid;
   row-gap: 15px;
-}
-.main-text p,
-.summery-text p {
-  font-size: 16px;
   text-align: justify;
-  font-family: "Lustria", serif;
-  line-height: 24px;
-}
-.img-container {
-  width: 80%;
-  margin: 60px auto;
 }
 .img-container img {
   width: 100%;
@@ -259,4 +250,69 @@ button {
 footer {
   background-color: #e3eaed;
   padding: 50px 0;
+}
+
+/* Media Query For Smart Phone*/
+@media only screen and (min-width: 320px) {
+  /* Styles here */
+}
+/* Media Query For Tablet*/
+@media only screen and (max-width: 768px) {
+  .page2 {
+    display: block;
+  }
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+  .left-section {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container {
+    height: 180px;
+  }
+  .img-container img {
+    height: 180px;
+  }
+  .header-text span {
+    font-size: 1.5rem;
+  }
+  .Community {
+    display: block;
+  }
+  .cumminty-left,
+  .cumminty-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .summery-text {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .summery-text h2 {
+    font-size: 1.5rem;
+  }
+  .contact {
+    row-gap: 20px;
+  }
+  .mid-hero-img {
+    height: 150px;
+  }
+  .main-img-card {
+    display: block;
+  }
+  .img-card {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+/* Media Query For Labtop*/
+@media only screen and (min-width: 1200px) {
+  /* Styles here */
+}
+/* Media Query For Desktop*/
+@media only screen and (min-width: 1600px) {
+  /* Styles here */
 }
